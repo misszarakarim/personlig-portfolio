@@ -1,5 +1,32 @@
 ---
 ---
-<div>
-Header
+
+<div x-data="{ showmenu: false }" class="p-6 fixed lg:static w-full mb-5 px-10 bg-back z-[150]" >
+<div id="navbar" class="flex flex-row justify-between">
+<div id="logo" class=" md:w-12">
+<a href="/"><img class="hidden md:block" src="/heart.png" alt="Logo"></a>
+</div>
+
+<nav id="desktopmenu" class="hidden lg:block">
+   <ul class="flex flex-row gap-4 space-x-10 font-jost text-[17px] md:mt-5 font-rokkitt">
+      <li class=""><a href="#link1">Linkedin</a></li>
+      <li class=""><a href="#link2">Github</a></li>
+       <li class=""><a href="#link3">Email</a></li>
+   </ul>
+</nav>
+
+<button id="burgermenu" class="lg:hidden" x-on:click="showmenu = ! showmenu">
+<img class="w-5" src="/bm.png" alt="Menu">
+</button>
+
+</div>
+<nav id="mobilmenu" class="flex flex-col content-center mt-4" 
+x-show="showmenu" x-transition x-on:click="showmenu = false" x-on:click.outside="showmenu = false">
+    <ul class="font-bold font-rokkitt">
+        <li class="text-center py-2 border-y-2 border-reod3"><a href="#link1">Linkedin</a></li>
+        <li class="text-center py-2 border-b-2 border-reod3"><a href="#link2">Github</a></li>  
+         <li class="text-center py-2 border-b-2 border-reod3"><a href="#link3">Email</a></li>  
+    </ul>
+</nav>
+
 </div>
