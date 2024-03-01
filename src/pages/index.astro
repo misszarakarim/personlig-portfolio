@@ -27,17 +27,14 @@ import Button from '../components/Button.astro';
 		</div>
 		</div>
 
-		<div class="font-rokkitt">
+		<div class="font-rokkitt space-y-3">
 			<p class="flex justify-center">Hi! My name is Zarish and im currently a student at KEA. </p>
 			<p class="flex justify-center">Let me take you on a journey through my exciting projects.</p>
 			
-			 <div class="flex justify-center">
-			  <img class="animate-bounce animate-infinite animate-duration-[2000ms] animate-ease-linear my-14 w-16" src="/pilned.png" alt="">
+			 <div class="flex justify-center ">
+			  <img class="pil my-14 w-16" src="/pilned.png" alt="">
 			</div>
 		</div>
-
-	
-		
 
 	</div>
 
@@ -47,44 +44,40 @@ import Button from '../components/Button.astro';
 
 
 	<section>
-		<div class="bg-reod1">
-            <div>
-                   <h2 class=" text-back font-cinzel font-bold text-3xl p-4 flex justify-center">MY PROJECTS</h2>
-
-			<div class="font-rokkitt p-6 ">
+		<div class="bg-reod1 py-8">
+            <h2 class=" text-back font-cinzel font-bold text-3xl p-4 flex justify-center"><span class="underline">MY PROJECTS</span></h2>
+			<div class="font-rokkitt p-6 space-y-10">
 
 				<div>
-					<h2 class="text-2xl text-back">The Korner</h2>
-                  <div>
+					<h2 class="text-2xl text-back text-center mb-3">The Korner</h2>
 					<div class="bg-back rounded-[15px]">
-					<img class="p-5" src="/thekorner.png" alt="">
-					<p>Role: Prototyping, Coding</p>
-				  </div>
+						<img class="p-5" src="/thekorner.png" alt="">
+						<p class="px-5 pb-4 text-[18px]"><span class="font-bold">Role:</span> Prototyping, Coding</p>
+					</div>
+				</div>
 
-                <div>
-					<h2 class="text-2xl text-back">CA (A-kasse)</h2>
-                  <div>
+				<div>
+					<h2 class="text-2xl text-back text-center mb-3">CA (A-kasse)</h2>
 					<div class="bg-back rounded-[15px]">
-					<img class="p-5" src="/ca.png" alt="">
-					<p>Role: Design, Prototyping, Coding, SoMe</p>
-				  </div>
+						<img class="p-5" src="/ca.png" alt="">
+						<p class="px-5 pb-4 text-[18px]"><span class="font-bold">Role:</span> Design, Prototyping, Coding, SoMe</p>
+					</div>
+				</div>
 
-                 <div>
-					<h2 class="text-2xl text-back">Copenhagen Light Festival</h2>
-                  <div>
+				<div>
+					<h2 class="text-2xl text-back text-center mb-3">Copenhagen Light Festival</h2>
 					<div class="bg-back rounded-[15px]">
-					<img class="p-5" src="/light.png" alt="">
-					<p>Role: Prototyping, Coding</p>
-				  </div>
-                
-				  <div>
-					<h2 class="text-2xl text-back">Digital Cleanup Day</h2>
-                  <div>
-					<div class="bg-back rounded-[15px]">
-					<img class="p-5" src="/digital.png" alt="">
-					<p>Role: Design, Prototyping, Coding</p>
-				  </div>
+						<img class="p-5" src="/light.png" alt="">
+						<p class="px-5 pb-4 text-[18px]"><span class="font-bold">Role:</span> Prototyping, Coding</p>
+					</div>
+				</div>
 
+				<div>
+					<h2 class="text-2xl text-back text-center mb-3">Digital Cleanup Day</h2>
+					<div class="bg-back rounded-[15px]">
+						<img class="p-5" src="/digital.png" alt="">
+						<p class="px-5 pb-4 text-[18px]"><span class="font-bold">Role:</span>  Design, Prototyping, Coding</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -92,37 +85,158 @@ import Button from '../components/Button.astro';
 	</section>
 
 	<section>
-		<h2 class="font-cinzel font-bold text-3xl p-4 flex justify-center my-8">MY SKILLS</h2>
+		<h2 class="font-cinzel font-bold text-3xl p-4 flex justify-center my-8 "><span class="underline">MY SKILLS</span></h2>
         
-		<ul class="font-rokkitt">
-		  <div>
-			<li>Figma</li>
-			<li>Adobe Illustrator</li>
-			<li>Astro</li>
-			<li>Prototyping</li>
-          </div>
+		<ul class="font-rokkitt space-y-8 m-3">
+		  
+			<div class="flex flex-cols-2 justify-between">
+			<li class="text-2xl">Figma</li>
+			<div class="flex gap-3">
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 border-reod2 border-2 rounded-full"></div>
+			</div>
+            </div>
 
-          <div>
-			<li>HTML</li>
-			<li>CSS </li>
-			<li>Tailwind css</li>
-			<li>Alphin.js</li>
-			<li>Javascript</li>
-		   </div>
+			<div class="flex flex-cols-2 justify-between">
+			<li class="text-2xl">Adobe Illustrator</li>
+			<div class="flex gap-3">
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 border-reod2 border-2 rounded-full"></div>
+			</div>
+            </div>
+
+			<div class="flex flex-cols-2 justify-between">
+			<li class="text-2xl">Astro</li>
+			<div class="flex gap-3">
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 border-reod2 border-2 rounded-full"></div>
+			</div>
+            </div>
+
+            <div class="flex flex-cols-2 justify-between">
+			<li class="text-2xl">Prototyping</li>
+			<div class="flex gap-3">
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 border-reod2 border-2 rounded-full"></div>
+			</div>
+			</div>
+         
+			<div class="flex flex-cols-2 justify-between">
+			<li class="text-2xl">HTML</li>
+			<div class="flex gap-3">
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 border-reod2 border-2 rounded-full"></div>
+			</div>
+            </div>
+
+			<div class="flex flex-cols-2 justify-between">
+			<li class="text-2xl">CSS </li>
+			<div class="flex gap-3">
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 border-reod2 border-2 rounded-full"></div>
+			</div>
+            </div>
+
+			<div class="flex flex-cols-2 justify-between">
+			<li class="text-2xl">Tailwind CSS</li>
+			<div class="flex gap-3">
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 border-reod2 border-2 rounded-full"></div>
+			</div>
+			</div>
+
+			<div class="flex flex-cols-2 justify-between">
+			<li class="text-2xl">Animated CSS</li>
+			<div class="flex gap-3">
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 border-reod2 border-2 rounded-full"></div>
+			</div>
+			</div>
+             
+			<div class="flex flex-cols-2 justify-between">
+			<li class="text-2xl">Alphin.js</li>
+			<div class="flex gap-3">
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 border-reod2 border-2 rounded-full"></div>
+				<div class="w-5 h-5 border-reod2 border-2 rounded-full"></div>
+			</div>
+            </div>
+
+			<div class="flex flex-cols-2 justify-between">
+			<li class="text-2xl">Javascript</li>
+			<div class="flex gap-3">
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 bg-reod2 rounded-full"></div>
+				<div class="w-5 h-5 border-reod2 border-2 rounded-full"></div>
+				<div class="w-5 h-5 border-reod2 border-2 rounded-full"></div>
+				<div class="w-5 h-5 border-reod2 border-2 rounded-full"></div>
+			</div>
+			</div>
+		  
 		</ul>
 	</section>
 
     <section>
-		<h2 class="font-cinzel">CONTACT INFOMATION</h2>
-        <p>Feel free to connect with me on my socials below </p>
-		
-		<div class="flex gap-x-10 w-20">
-		<img src="/linkedin.png" alt="">
-		<img src="/github.png" alt="">
-		<img src="/email.png" alt="">
+
+        <div class="my-12 mx-4">
+			<img src="/line.png" alt="">
 		</div>
 
-		<p title="font-rokkitt">Designed & Developed by Zarish Zara Karim</p>
+		<h2 class="font-cinzel font-bold text-3xl p-4 flex justify-center">CONTACT INFOMATION</h2>
+        <p class="text-center font-rokkitt">Feel free to connect with me on my socials below </p>
+		
+		<a href=""></a>
+		<div class="flex flex-row justify-center content-center gap-6 mb-8 mt-7 ">
+			<a href="https://www.linkedin.com/in/zarish-zara-karim/"><img class="w-20 h-20" src="/linkedin.png" alt=""></a>
+			<a href="https://github.com/misszarakarim"><img class="w-20 h-20" src="/github.png" alt=""></a>
+			<a href="mailto:zarishdk@gmail.com"><img class="w-20 h-20" src="/email.png" alt=""></a>
+		</div>
+
+
+
+
+		<p class="font-rokkitt text-center font-bold">Designed & Developed by Zarish Zara Karim</p>
 	</section>
 
 </MainLayout>
+
+<style>
+	.pil{
+    -webkit-animation: mover 3s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+</style>
