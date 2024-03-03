@@ -1,32 +1,32 @@
----
----
 
-<div x-data="{ showmenu: false }" class="p-6 fixed lg:static w-full mb-5 px-10 bg-back z-[150]" >
+<div x-data="{ showmenu: false }" class="p-6 fixed lg:static w-full px-10 bg-reod1 z-[150]" >
 <div id="navbar" class="flex flex-row justify-between">
-<div id="logo" class=" md:w-12">
-<a href="/"><img class="hidden md:block" src="/heart.png" alt="Logo"></a>
+<div id="logo" class=" md:w-16">
+<a href="/"><img class="hidden md:block" src="/logo.png" alt="Logo"></a>
 </div>
 
-<nav id="desktopmenu" class="hidden lg:block">
-   <ul class="flex flex-row gap-4 space-x-10 font-jost text-[17px] md:mt-5 font-rokkitt">
-      <li class=""><a href="#link1">Linkedin</a></li>
-      <li class=""><a href="#link2">Github</a></li>
-       <li class=""><a href="#link3">Email</a></li>
+<nav id="desktopmenu" class="hidden lg:block md:z-[1000]">
+   <ul class="flex flex-row gap-4 space-x-10 font-jost text-[20px] md:mt-[15px] font-rokkitt text-back">
+      <li> <a href="https://www.linkedin.com/in/zarish-zara-karim/">Linkedin</a> </li>
+      <li> <a href="https://github.com/misszarakarim">Github</a> </li>
+      <li> <a href="mailto:zarishdk@gmail.com">Email</a> </li>
    </ul>
 </nav>
 
 <button id="burgermenu" class="lg:hidden" x-on:click="showmenu = ! showmenu">
-<img class="w-5" src="/bm.png" alt="Menu">
+<img class="w-5" src="/menu.png" alt="Menu">
 </button>
 
 </div>
+
 <nav id="mobilmenu" class="flex flex-col content-center mt-4" 
 x-show="showmenu" x-transition x-on:click="showmenu = false" x-on:click.outside="showmenu = false">
-    <ul class="font-bold font-rokkitt">
-        <li class="text-center py-2 border-y-2 border-reod3"><a href="#link1">Linkedin</a></li>
-        <li class="text-center py-2 border-b-2 border-reod3"><a href="#link2">Github</a></li>  
-         <li class="text-center py-2 border-b-2 border-reod3"><a href="#link3">Email</a></li>  
+    <ul class="font-bold font-rokkitt text-back">
+        <li class="text-center py-2 border-y-2 border-reod4"><a href="https://www.linkedin.com/in/zarish-zara-karim/">Linkedin</a></li>
+        <li class="text-center py-2 border-b-2 border-reod4"><a href="https://github.com/misszarakarim">Github</a></li>  
+        <li class="text-center py-2 border-b-2 border-reod4"><a href="mailto:zarishdk@gmail.com">Email</a></li>  
     </ul>
 </nav>
 
-</div>
+</div>  
+ 
