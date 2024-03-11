@@ -1,11 +1,11 @@
 
-<div x-data="{ showmenu: false }" class="p-6 fixed lg:static w-full px-10 bg-reod1 z-[150]" >
+<div x-data="{ showmenu: false }" class="p-5 fixed lg:static w-full px-10 bg-reod1 z-[150] md:p-5" >
 <div id="navbar" class="flex flex-row justify-between">
 <div id="logo" class=" md:w-16">
-<a href="/"><img class="hidden md:block z-[500]" src="/logo.png" alt="Logo"></a>
+<a href="/index.astro"><img class="hidden md:block z-[500]" src="/logo.png" alt="Logo"></a>
 </div>
 
-<nav id="desktopmenu" class="hidden lg:block md:z-[1000]">
+<nav id="desktopmenu" class="hidden lg:block md:z-[1000] md:mb-5">
    <ul class="flex flex-row gap-4 space-x-10 font-jost text-[20px] md:mt-[15px] font-rokkitt text-back">
       <li> <a href="https://www.linkedin.com/in/zarish-zara-karim/">Linkedin</a> </li>
       <li> <a href="https://github.com/misszarakarim">Github</a> </li>
@@ -14,7 +14,7 @@
 </nav>
 
 <button id="burgermenu" class="lg:hidden" x-on:click="showmenu = ! showmenu">
-<img class="w-5" src="/menu.png" alt="Menu">
+<img class="w-6" src="/menu.png" alt="Menu">
 </button>
 
 </div>
